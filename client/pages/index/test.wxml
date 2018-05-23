@@ -1,0 +1,5 @@
+<form bindsubmit='bindsubmit' report-submit='true'>
+  <input value="{{code}}" placeholder='用户登陆凭证'/>
+  <input value="{{formid}}" placeholder='formid'/>
+  <button form-type='submit' type='primary'>提交</button>
+</form>
